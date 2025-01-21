@@ -1,0 +1,20 @@
+
+git <command> -h		help
+git init				start a git repo in the current directory
+git clone <url>			create a local copy of a remote repo
+
+git status				view state of the staging area
+git add	<file>			add changes in the file to the staging area. 'git add .' to add all changes 
+git commit				commit staged changes to the local repo. -m "{message}" OR :wq and enter to exit vim
+git push 				push local changes to the remote repo
+
+git branch				view a list of branches. aserisk marks the current branch
+git branch <name>		create a new branch
+git branch -d <name>	delete the branch
+git switch <name>		switch to the branch
+git checkout -b <name>	create a new branch and switch to it
+git log					view history of a current branch. 'q' to exit. --oneline OR --graph for a nicer look
+
+git merge <branch>		add contents of the specified branch to the current one. --continue after resolving conflicts or --abort 
+git rebase 				don't create a merge commit, put the rebased commits into a single linear branch
+git diff				view changes between the current working directory and staging area
