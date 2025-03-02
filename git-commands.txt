@@ -1,4 +1,3 @@
-
 git <command> -h		help
 git init				start a git repo in the current directory
 git clone <url>			create a local copy of a remote repo
@@ -18,3 +17,5 @@ git log					view history of a current branch. 'q' to exit. --oneline OR --graph 
 git merge <branch>		add contents of the specified branch to the current one. --continue after resolving conflicts or --abort 
 git rebase 				don't create a merge commit, put the rebased commits into a single linear branch
 git diff				view changes between the current working directory and staging area
+
+git rm --cached <file>	remove file from the repo, but not from the local file system
