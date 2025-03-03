@@ -19,3 +19,4 @@ git rebase 				don't create a merge commit, put the rebased commits into a singl
 git diff				view changes between the current working directory and staging area
 
 git rm --cached <file>	remove file from the repo, but not from the local file system
+git commit --amend		amend last commit. -m to change message. --no-edit to add files without changing the message
